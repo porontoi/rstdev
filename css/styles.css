@@ -1,0 +1,582 @@
+body {
+  font-family: "Montserrat";
+  background-image: url('../images/bg-image.jpg');
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+
+#header {
+  background-image: linear-gradient(#393e46, #393e46, #00adb5);
+  text-align: center;
+  padding: 2% 14% 0;
+}
+
+
+
+#contact {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  text-align: center;
+  padding: 3% 14%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+ul#menu li {
+  padding: 2% 2%;
+  display: inline-block;
+}
+
+a:visited, a:link, a:active {
+  text-decoration: none;
+  /* color: #23d5ab; */
+}
+
+.pmenu {
+  color: white;
+}
+
+.pmenu:hover {
+  color: #23d5ab;
+}
+
+#contact h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+}
+
+#contact .white-text {
+  color: white;
+}
+
+#hello {
+  padding: 3% 37% 0;
+  text-align: center;
+}
+
+#hello h1 {
+  color: #00adb5;
+  font-weight: 800;
+}
+
+.rst-logo {
+  padding-bottom: 5%;
+}
+
+#Portfolio {
+  padding: 3% 27% 0;
+  text-align: center;
+}
+
+#services {
+  padding: 1% 27% 3%;
+  text-align: center;
+}
+
+#services h2 {
+  color: #00adb5;
+  font-weight: 800;
+}
+
+.whatCanIdo {
+  flex-flow: row;
+}
+
+.graphics-webdev {
+  color: #fff;
+  padding: 3% 1%;
+  font-weight: 100;
+}
+
+.devs-bold {
+  font-weight: 900;
+  color: #00adb5;
+}
+
+.devs-bold:hover {
+  color: #FF8787;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.im-ron {
+  padding-top: 55px;
+}
+
+.header-1 {
+  position: relative;
+}
+
+.review1 {
+  padding-bottom: 50px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #00adb5;
+  color: #fff;
+}
+
+.carousel-item {
+  height: 500px;
+  padding: 7% 20%;
+}
+
+.h2-testimonial {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+#what-can-i-do h1 {
+  font-family: "Montserrat";
+  text-align: center;
+  position: relative;
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  padding-top: 5% 10%;
+}
+
+.header-1 {
+  position: relative;
+}
+
+#what-can-i-do {
+  background-image: url('../images/what-can-I-do-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 620px;
+  height: 362px;
+  text-align: center;
+}
+
+.subs1 {
+  padding: 3% 33% 0;
+}
+
+.h1-sub-head {
+  padding: 11% 10%;
+}
+
+#Portfolio {
+  background-image: url('../images/portfolio-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 620px;
+  height: 362px;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+#Portfolio h1 {
+  font-family: "Montserrat";
+  text-align: center;
+  position: relative;
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  padding-top: 5% 10%;
+}
+
+.Portfolio {
+  padding: 3% 37% 0;
+}
+
+.portfolio-slide {
+  padding: 3% 37% 0;
+}
+
+.graphics-img {
+  float: left;
+  width: 350px;
+  margin-right: 50px;
+}
+
+.graphic-designs {
+  text-align: left;
+}
+
+.graphic-web-design {
+  margin-top: 80px;
+}
+
+.graphics-design {
+  float: left;
+  width: 350px;
+  margin-right: 50px;
+}
+
+.web-development {
+  float: right;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.Web-Dev {
+  margin-top: 90px;
+  text-align: right;
+}
+
+#footer {
+  padding: 3% 17% 1%;
+}
+
+/* PORTFOLIO SECTION */
+@media (max-width: 1450px) {
+  .title-slide {
+    width: 950px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .title-slide {
+    width: 650px;
+  }
+}
+
+@media (max-width: 930px) {
+  .im-ron {
+    width: 380px;
+  }
+
+  .title-slide {
+    width: 380px;
+  }
+
+  #header {
+    text-align: center;
+    padding: 2% 7% 0;
+  }
+
+  #hello {
+    padding: 7% 7%;
+    text-align: center;
+  }
+
+  .rst-logo {
+    padding-bottom: 5%;
+    width: 250px;
+  }
+
+  #services {
+    margin-left: 4%;
+    padding: 2% 10% 0;
+  }
+
+  #what-can-i-do {
+    background-image: url('../images/what-can-I-do-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 532px;
+    height: 262px;
+    padding: 10% 10%;
+    text-align: center;
+  }
+
+  #what-can-i-do h1 {
+    text-align: center;
+    position: relative;
+    font-weight: 800;
+    font-size: 1.9rem;
+    color: white;
+    padding-top: 1%;
+  }
+
+  #services h2, p {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .subs1 {
+    padding: 2% 5% 0;
+  }
+
+  .graphics-img {
+    text-align: center;
+  }
+
+  .web-development {
+    width: 300px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+
+  ul#menu li {
+    display: inline;
+    text-align: left;
+    padding: 2% 0;
+    left: 250px;
+  }
+}
+
+/* Portfolio */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+#myImg:hover {
+  opacity: 0.7;
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg2:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.h1-portfolio {
+  padding-top: 50px;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: white;
+  text-align: left;
+}
+
+/* Portfolio */
+.con1 {
+  width: 435px;
+  height: 290px;
+}
+
+/* CONTACT FORM */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #00adb5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 250px;
+}
+
+input[type=submit]:hover {
+  background-color: #393e46;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+input[type='email'] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* CONTACT FORM */
+/* BUTTON ANIMATION */
+.button {
+  border-radius: 4px;
+  background-color: #00adb5;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 250px;
+  height: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* BUTTON ANIMATION */
+/* contact header animation */
+#headerC {
+  background: linear-gradient(160deg, #393e46, #393e46, #00adb5, #00adb5);
+  background-size: 400% 400%;
+  animation: gradient 12s ease infinite;
+  text-align: center;
+  padding: 3% 14%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
